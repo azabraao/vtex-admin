@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
-  "name": "admin-sandbox",
-  "version": "0.0.0",
+  "vendor": "compracerta",
+  "name": "chatbot",
+  "version": "0.0.1",
   "title": "Admin Sandbox",
   "description": "Admin Sandbox",
   "builders": {
@@ -10,7 +10,9 @@
     "docs": "0.x",
     "admin": "0.x"
   },
-  "dependencies": { "vtex.styleguide": "9.x" },
+  "dependencies": {
+    "vtex.styleguide": "9.x"
+  },
   "registries": ["smartcheckout"],
   "policies": [],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
